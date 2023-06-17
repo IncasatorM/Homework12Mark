@@ -20,17 +20,15 @@ public class Homework12 {
         for (int i = 0; i < array1.length; i++) {
             if (array1[i] == array2[i]) {
                 count++;
-            }
-            if (count > 0) {
 
             }
-            for (int j = 0; j < 7; j++) {
-                if (array1 == array2) {
-                    count++;
-                }
-            }
+            System.out.println("Кількість збигив" + count);
+            break;
+
+
         }
-
     }
 
 }
+
+
